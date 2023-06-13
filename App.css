@@ -1,0 +1,89 @@
+/* -------- Background style --------------- */
+h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.App {
+  font-size: large;
+  text-align: center;
+}
+
+/*--------toggle style---------*/
+
+.toggle-animal,
+.toggle-plantae{
+  display: inline;
+  text-align: left;
+  justify-content: left;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+.toggle-animal label,
+.toggle-plantae label {
+  text-align: left
+}
+
+.toggle-vert{
+  position: relative;
+  left: 3%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 0%;
+}
+
+.toggle-invert{
+  position: relative;
+  left: 3%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+
+.arrow {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  transform: rotate(45deg);
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.up {
+  transform: rotate(-135deg);
+}
+
+.additional-options {
+  margin-left: 20px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.container {
+  max-width: 100px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  padding: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
